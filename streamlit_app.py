@@ -24,7 +24,7 @@ st.write("Name on Smoothie will be: ", name_on_order)
 
  
 
-cnx = st.connections("snowflake")
+cnx = st.connection("snowflake")
 
 session = cnx.session()
 
